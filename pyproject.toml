@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "osu"
+version = "0.1.0"
+description = ""
+authors = ["M1N3R <m1n0rm1n3r@proton.me>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiosu = "^2.3.1"
+fluentpy = "^2.1.1"
+matplotlib = "^3.9.0"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.4.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
